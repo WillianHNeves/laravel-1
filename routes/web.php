@@ -7,14 +7,12 @@ use Illuminate\Support\Facades\Route;
 | Web Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| Onde eu vou fazer as minhas rotas
 |
 */
 
 Route::get('/', function () {
-    $subMensage = 'Seja bem-vindo';
+    $subMensage = 'Meu primeiro template Blade';
     
     return view('hello', compact('subMensage'));
 });
